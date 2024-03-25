@@ -1,0 +1,18 @@
+{
+  "name": "quantumEcho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nav": "sass src/sass/navbar.scss src/css/navbar.css",
+    "stylus": "sass src/sass/stylus.scss src/css/stylus.css"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
