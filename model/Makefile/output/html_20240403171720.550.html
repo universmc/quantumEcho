@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav li {
+            display: inline;
+            padding: 0 10px;
+        }
+
+        main {
+            padding: 3rem 0;
+        }
+
+        main h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        main p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1,
+            nav {
+                float: none;
+                text-align: center;
+                margin-top: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Welcome to my website!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero id mauris ullamcorper tempor. In facilisis
+                orci quis vestibulum lacinia. Proin eget ligula vitae nisi tincidunt dapibus. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>Curabitur ullamcorper turpis vel commodo scelerisque. Phasellus id velit nulla. Sed elementum, lectus eget bibendum
+                auctor, tellus nisi volutpat dolor, eu volutpat massa nisl et lorem. Donec rhoncus, ex eget aliquam tempus, ipsum
+                tellus volutpat nisi, nec laoreet quam nisi et velit.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2022 My Website
+        </div>
+    </footer>
+</body>
+
+</html>[/1]: Sure, here's an example of a simple HTML/CSS page with a container, header, main content, and footer:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Page</title>
+ <style>
+ * {
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ }
+
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ }
+
+ header {
+ background-color: #333;
+ color: #fff;
+ padding: 1rem;
+ }
+
+ header h1 {
+ margin: 0;
+ }
+
+ main {
+ padding: 2rem;
+ }
+
+ footer {
+ background-color: #333;
+ color: #fff;
+ padding: 1rem;
+ text-align: center;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <header>
+ <h1>My Page</h1>
+ </header>
+ <main>
+ <h2>Welcome to my page!</h2>
+ <p>This is a simple example of an HTML/CSS page with a container, header, main content, and footer.</p>
+ </main>
+ </div>
+ <footer>
+ &copy; 2023 My Page
+ </footer>
+</body>
+</html>
+
+This code creates a page with a header, main content area, and footer, all contained within a maximum width container. The header and footer have a dark background color and white text, while the main content area has a white background color. The font for the entire page is set to Arial, and the box-sizing property is set to border-box for all elements to make it easier to calculate widths and heights.

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Styled Page</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ }
+
+ a {
+ text-decoration: none;
+ color: #333;
+ }
+
+ ul {
+ list-style: none;
+ }
+
+ .container {
+ max-width: 1100px;
+ margin: auto;
+ overflow: hidden;
+ }
+
+ .header {
+ background-color: #333;
+ color: #fff;
+ padding: 1rem 0;
+ }
+
+ .header h1 {
+ float: left;
+ }
+
+ nav {
+ float: right;
+ }
+
+ nav li {
+ display: inline;
+ padding: 0 1rem;
+ }
+
+ .main-content {
+ padding: 2rem;
+ }
+
+ .main-content h2 {
+ margin-bottom: 1rem;
+ }
+
+ .main-content p {
+ margin-bottom: 1.5rem;
+ }
+
+ .main-content a {
+ color: #f00;
+ }
+
+ .aside {
+ background-color: #eee;
+ padding: 2rem;
+ float: right;
+ width: 30%;
+ height: 500px;
+ }
+
+ .footer {
+ background-color: #333;
+ color: #fff;
+ text-align: center;
+ padding: 1rem 0;
+ clear: both;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <header class="header">
+ <h1>Welcome to my website</h1>
+ <nav>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+ <div class="main-content">
+ <h2>About me</h2>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero id mauris ullamcorper tempor.</p>
+ <p>Curabitur consequat, lectus eget laoreet aliquam, nisi nibh pharetra nisl, ac elementum nunc nunc et nisi.</p>
+ <a href="#">Read more</a>
+ </div>
+ <aside class="aside">
+ <h3>Sidebar</h3>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero id mauris ullamcorper tempor.</p>
+ </aside>
+ </div>
+ <footer class="footer">
+ &copy; 2021 My website
+ </footer>
+</body>
+</html>

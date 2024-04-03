@@ -1,0 +1,82 @@
+Bien sûr, voici un exemple plus complet de fichier style.css qui pourrait être utilisé pour un site web d'entreprise simple :
+```css
+/* reset global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background color for whole site */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* define header section style */
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* define navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+/* define main section style */
+main {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+main h1 {
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+main p {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* define footer section style */
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+```
+En espérant que cela t'aide ! N'hésite pas à me contacter si tu as d'autres questions.
