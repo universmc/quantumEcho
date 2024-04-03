@@ -1,21 +1,34 @@
-##----------------------------##
-#    MAGIC MAKEFILE           #
-##----------------------------##
-#          MENU               #
-#      []CODEX                #
-#      []BUILD                #
-#      []REP                  #
-#      []FILE                 #
-#      []SCRIPT()             #
-#      []CLEAN                #
-#      []MENU                 #
-#      []INSTALL_ZSH          #
-#      []CLEAN_ZSH            #
-##----------------------------##
+
 # Le Makefile des rêveurs et des explorateurs
 MAGIC_TARGETS := codex build menu install_zsh clean_zsh
 
-all: mkB $(MAGIC_TARGETS)
+all: intro help mkB $(MAGIC_TARGETS)
+
+intro:
+	@echo "╔═══════════════════════════════════════════════════════════╗"
+	@echo "║               O                                           ║"
+	@echo "║   _   _ _ __  _ _   _____ _ __ ___       _ __ ___   ___   ║"
+	@echo "║  | | | | '_ \| \ \ / / _ \ '__/ __|_____| '_  '_':./ __|  ║"
+	@echo "║  | |_| | | | | |\ V /  __/ |  \__ \_____| | | | | | !__   ║"
+	@echo "║   \__,_|_| |_|_| \_/ \___|_|  |___/     |_| |_| |_|\___|  ║"
+	@echo "║                                                           ║"
+	@echo "╚═══════════════════════════════════════════════════════════╝"
+
+help:
+	@echo "╔══════════════════════════════╗"
+	@echo "║       MAGIC MAKEFILE         ║"
+	@echo "╠══════════════════════════════╣"
+	@echo "║  MENU                        ║"
+	@echo "║      [_]CODEX                ║"
+	@echo "║      [_]BUILD                ║"
+	@echo "║      [_]REP                  ║"
+	@echo "║      [_]FILE                 ║"
+	@echo "║      [_]SCRIPT()             ║"
+	@echo "║      [_]CLEAN                ║"
+	@echo "║      [_]MENU                 ║"
+	@echo "║      [_]INSTALL_ZSH          ║"
+	@echo "║      [_]CLEAN_ZSH            ║"
+	@echo "╚══════════════════════════════╝"
 
 # Magie des mots
 codex:

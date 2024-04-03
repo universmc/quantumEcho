@@ -1,0 +1,48 @@
+Bien sûr, voici maintenant le code HTML, CSS et JS pour afficher dynamiquement le contenu du fichier JSON :
+
+HTML :
+```bash
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+CSS (styles.css) :
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    margin: 20px;
+}
+```
+JavaScript (script.js) :
+```javascript
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+    const content = document.getElementById('content');
+    data.forEach(item => {
+      const div = document.createElement('div');
+      div.innerHTML = `
+        <h2>${item.title}</h2>
+        <p>${item.description}</p>
+      `;
+      content.appendChild(div);
+    });
+  })
+  .catch(error => console.error('Error:', error));
+```
+Notez que dans l'exemple ci-dessus, le fichier JSON est nommé "data.json" et se trouve dans le même répertoire que les fichiers HTML, CSS et JS. Assurez-vous d'ajuster les noms de fichiers et les chemins d'accès en conséquence.

@@ -1,0 +1,15 @@
+source export GROQ_API_KEY=gsk_4vovQWN6lbX1t4tvDHHHWGdyb3FYv
+e5qtw7w0EwTN2mNQWkHlr3p
+# Affichage de l'heure et du mode de développement
+echo "💻$(date "+%H:%M:%S") Development Mode"
+
+# Affichage du menu
+echo "Menu :"
+echo "1. About MC"
+echo "2. Menu"
+echo "3. Base de données"
+echo "4. Machine leaning"
+echo "5. Gestion"
+echo "6. Carte"
+echo "7. Registre"
+echo -e "\nChoisissez une option : "
